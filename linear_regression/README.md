@@ -25,10 +25,7 @@ The general formula for a linear regression model is:
 1. **Non-linear Relationships**: Linear regression is not suitable for modeling relationships that are not linear. If the relationship between the variables is curved or more complex, other methods like polynomial regression, decision trees, or neural networks may be better.
 2. **Multicollinearity**: When independent variables are highly correlated with each other, it can distort the results and make the model unreliable.
 3. **Outliers**: Linear regression is sensitive to outliers, which can significantly affect the model. Robust regression techniques might be necessary in the presence of outliers.
-4. **Heteroscedasticity**: It assumes constant variance of errors (homoscedasticity). When this assumption is violated (heteroscedasticity), it can lead to inefficient estimates.
-5. **Non-linearity of Residuals**: If residuals (errors) show a pattern (non-linearity), it indicates that the model is not capturing all the underlying patterns in the data.
-6. **Independence of Errors**: Linear regression assumes that the residuals are independent. Violation of this assumption (e.g., in time series data) can lead to incorrect conclusions.
 
-## Conclusion
+The dataset used in this project can be found [here](https://archive.ics.uci.edu/dataset/19/car+evaluation)
 
-Linear regression is a powerful and widely-used tool in data analysis, but it's essential to be aware of its assumptions and limitations. Proper diagnostics and alternative methods should be considered when these assumptions are violated.
+
