@@ -1,6 +1,6 @@
 # Linear Regression
 
-## What is it?
+## Overview
 
 Linear regression is a statistical method used to model the relationship between a dependent variable and one or more independent variables. The goal is to find the linear equation (i.e. line of best fit) that best predicts the dependent variable based on the values of the independent variables.
 
